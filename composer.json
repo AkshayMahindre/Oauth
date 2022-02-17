@@ -1,0 +1,21 @@
+{
+    "name": "akshay.mahindre/test2",
+    "autoload": {
+        "psr-4": {
+            "AkshayMahindre\\Test2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Akshay Mahindre",
+            "email": "akshay.mahindre@extentia.com"
+        }
+    ],
+    "require": {
+        "caponica/amazon-mws-complete": "dev-master",
+        "nesbot/carbon":"1.25.0",
+        "betterapp/laravel-db-encrypter": "^1.0",
+        "google/apiclient": "^2.12.1",
+        "kamermans/guzzle-oauth2-subscriber": "~1.0"
+    }
+}
