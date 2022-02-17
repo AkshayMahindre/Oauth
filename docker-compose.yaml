@@ -2,7 +2,7 @@ version: '3.0'
 
 services:
     app:
-      container_name: test
+      container_name: oauth
       build: .
       env_file:
           - .env
