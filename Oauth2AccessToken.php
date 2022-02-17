@@ -6,7 +6,7 @@ class Oauth2AccessToken
     {
       try{
         // inject dependancy.
-        $oauth = new Authorization(new Google());
+        $oauth = new Authorization(new Amazon());
         if(isset($_GET['code'])){
           $oauth->getAccessToken($_GET['code']);
         }else{
